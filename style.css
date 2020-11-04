@@ -1,0 +1,83 @@
+.homepage{
+	height: 97vh;
+	background-image: url("uomo.jpg");
+	background-size: cover;
+	color: #fff;
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 28% 95%, 0 100%, 0% 50%);
+	
+}
+.about{
+	height: 80vh;
+
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+nav ul li{
+	display: inline-block;
+	padding: 0 25px;
+	margin-right: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+nav ul li a:hover{
+	background-color: #ffff;
+	color: #111;
+	padding: 8px 15px;
+	transition: 0.5s;
+	border-radius: 2px;
+}
+nav ul .active{
+	background-color: #ffff;
+	color: #111;
+	padding: 8px 15px;
+	border-radius: 2px;
+}
+
+
+.logo h3{
+	font-size: 22px;
+	font-family: 'Poppins', sans-serif;
+	padding: 0 15px;
+	letter-spacing: 7px;
+}
+
+
+.typed h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-family: 'Poppins', sans-serif;
+	font-size: 50px;
+}
+.typed span{
+	color: #E10210;
+}
+
+.social {
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform: translate(-75%, -50%);
+
+}
+.social i{
+	padding: 13px 16px;
+	font-size: 25px;
+	border: 1px solid #ffff;
+	border-radius: 50%;
+}
+
+.social i:hover{
+	transform: translateY(-10px);
+	transition: 0.6s;
+	background-color: red;
+	border-color: red;
+}
